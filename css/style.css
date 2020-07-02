@@ -15,35 +15,46 @@ body {
 
 h1 {
     margin-top: 0;
-    font-family: 'Homemade Apple', cursive;
+    font-size: 5em;
+    font-family: 'Permanent Marker', cursive;
 }
 
 h2, h3{
+
     font-family: 'Jim Nightshade', cursive;
 }
 
+.whoami{
+    font-size: 2.5em;
+    font-family: 'Press Start 2P', cursive;
+}
 
 .pro{
     color: #eedad1;
+    font-family: 'Press Start 2P', cursive;
 }
 
 .top-cloud{
     padding-top: 50px;
     position: relative;
-    left: 200px;
+    left: 23%;
 
 }
 .bot-cloud{
     position: absolute;
+    left: 23%;
 }
-.mountain{}
+.mountain{
+    width: 80%;
+}
 .avatar{
-    width: 10%;
+    padding-top: 200px;
+    width: 25%;
 
 }
 .coding {
-    width: 10%;
+    width: 25%;
 }
 .linux{
-    width: 10%;
+    width: 25%;
 }
