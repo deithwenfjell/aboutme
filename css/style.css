@@ -20,9 +20,25 @@ h1 {
     font-family: 'Permanent Marker', cursive;
 }
 
-h2, h3{
-
+h2 {
+    font-size: 2.5em;
     font-family: 'Jim Nightshade', cursive;
+}
+
+h3 {
+    font-size: 2em;
+    font-family: 'Jim Nightshade', cursive;
+}
+
+hr {
+    border-style: dotted;
+    width: 30px;
+    border-width: 0 0 5px 0;
+    margin: 50px auto 50px auto;
+}
+
+p {
+    font-size: 1.3em;
 }
 
 .whoami{
@@ -46,11 +62,12 @@ h2, h3{
     left: 23%;
 }
 .mountain{
-
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 .avatar{
     margin-top: 200px;
-    width: 25%;
+    width: 20%;
     border-radius: 30%;
 
 }
@@ -63,10 +80,35 @@ h2, h3{
     width: 25%;
     float: right;
     margin-left: 30px;
+    order: 2;
 }
 
 .skill-row{
-    width: 50%;
+    display: flex;
+    width: 70%;
     margin: 100px auto 100px;
     text-align: left;
+}
+
+.coding-detail{
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.linux-detail{
+    order: 1;
+}
+
+.bottom-container{
+    background-color: #383e56;
+    color: #f69e7b;
+}
+
+.btn {
+    margin: 50px auto;
+    border: #383e56;
+}
+
+.profile{
+    padding-right: 30px;
+    padding-left: 30px;
 }
